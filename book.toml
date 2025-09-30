@@ -1,8 +1,9 @@
 [book]
+title = "How to Make Products and Take Over the World"
 authors = ["Zefira Shannon"]
+description = "A friendly guide to Corporations in Bitburner."
 language = "en"
 src = "src"
-title = "Bitburner Corporation Guide"
 
 [output.html]
 
