@@ -37,3 +37,11 @@ matter what happens, you can always sell your CEO position to some
 other sucker and start over with a new corporation! This option is
 available through a button "Sell CEO position" just above the
 "Unlocks" section in the main tab of your corporation.
+
+## How to Read this Guide
+
+If you're completely new to corporations start with the UI and
+mechanics walkthrough in [Chapter 1](./chapter_1.md). Once you're
+familiar with the basic mechanics you can start thinking about
+automating parts of your corporation which we'll discuss in [Chapter
+2](./chapter_2.md).
