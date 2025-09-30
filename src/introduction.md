@@ -26,7 +26,14 @@ pool of [workers] which can be assigned to various [roles], and a
 warehouse for storing [input materials], [output materials], [boost
 materials] and [products].
 
-You start from a newly formed startup corporation and the first thing
-you will need to do is choose the industry of your first division. It
-is _highly_ recommended that if you are new to the Corporation
-mechanic you start with the Agriculture division first.
+## Don't Panic
+
+Running a corporation is complex and you'll need to make a lot of
+irreversible choices before getting feedback about whether those
+choices were good or bad. It is easy to paint yourself into a corner
+and use up all your corporate funds creating a corporation that can
+barely turn a profit. That may sound scary, but _DON'T PANIC_! No
+matter what happens, you can always sell your CEO position to some
+other sucker and start over with a new corporation! This option is
+available through a button "Sell CEO position" just above the
+"Unlocks" section in the main tab of your corporation.
