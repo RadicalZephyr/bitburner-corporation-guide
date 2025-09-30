@@ -22,9 +22,19 @@ overview of the structure and the general terminology.
 
 Your corporation can have many different [divisions]. Each division
 can have multiple [offices], one in each [city]. Each office has a
-pool of [workers] which can be assigned to various [roles], and a
+pool of [employees] which can be assigned to various [roles], and a
 warehouse for storing [input materials], [output materials], [boost
 materials] and [products].
+
+[divisions]: ./glossary.md#divisions
+[offices]: ./glossary.md#offices
+[city]: ./glossary.md#cities
+[employees]: ./glossary.md#employees
+[roles]: ./glossary.md#roles
+[input materials]: ./glossary.md#input-materials
+[output materials]: ./glossary.md#output-materials
+[boost materials]: ./glossary.md#boost-materials
+[products]: ./glossary.md#products
 
 ## Don't Panic
 
