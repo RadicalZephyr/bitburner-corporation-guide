@@ -12,7 +12,9 @@ the government. Earning the seed money to self-fund your corporation
 under the harsh restrictions of Bitnode 3 takes an excessively long
 time.
 
-You start from a newly formed startup corporation and the first thing
-you will need to do is choose an industry for your first division. It
-is _highly_ recommended that if you are new to the Corporation
-mechanic you start by creating an Agriculture division first.
+## Your First Division
+
+Now that you've formed your corporation the first thing you will need
+to do is choose an industry for your first division. It is _highly_
+recommended that if you are new to the Corporation mechanic you start
+by creating an Agriculture division first.
