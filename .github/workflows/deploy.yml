@@ -31,6 +31,12 @@ jobs:
           unzip mdbook/mdbook-linkcheck.zip -d mdbook -x README.md LICENSE
           chmod ugo+x mdbook/mdbook-linkcheck
 
+      - name: Install mdbook-admonish
+        run: |
+          tag=$(curl 'https://api.github.com/repos/tommilligan/mdbook-admonish/releases/latest' | jq -r '.tag_name')
+          url="https://github.com/tommilligan/mdbook-admonish/releases/latest/download/mdbook-admonish-${tag}-x86_64-unknown-linux-gnu.tar.gz"
+          curl -sSL $url | tar -xz --directory=./mdbook
+
       - name: Build Book
         run: mdbook build
 
