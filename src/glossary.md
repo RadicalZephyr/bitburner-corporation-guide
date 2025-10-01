@@ -1,14 +1,61 @@
 # Glossary
 
+## Corporation
+
+Your corporation is an umbrella entity which all your different
+[divisions][division] are nested under. There are also a number of
+feature unlocks that apply to your entire corporation, and upgrades
+that affect every [office][offices] or [warehouse][warehouses] in
+every [division].
+
+### Unlocks
+
+[Unlock]: ./glossary.md#unlocks
+
 ## Divisions
+
+When you expand your corporation into a new industry you create a new
+division. Each [division] can have up to six [offices], one in each
+city. Every division has specific stats visible in the
+interface. They are visible in the same screen as the office
+information but are not specific to a particular office.
 
 ## Offices
 
-## Cities
+Each office has [employees] and a [warehouse][warehouses].
+
+## Warehouses
+
+The warehouse for a specific office has a certain amount of storage
+space, and it can hold [materials]. The kinds of materials that appear
+in the UI are limited to the relevant [input][inputs],
+[output][outputs] materials or [products] for that industry, as well
+as the [boost materials][boosts] that all industries can use.
 
 ## Employees
 
-## Roles
+Employee stats are tracked as averages. Employees have three stats:
+morale, energy and experience. You can assign employees to different
+[positions].
+
+## Positions
+
+There are six different positions you can assign employees to.
+
+- Operations: Increases production _quantity_
+- Engineer: Increases production _quality_ and minor increase to _quantity_.
+- Business: Increases the number of materials/products you can sell per cycle.
+- Management: Increases bonus for Operations and Engineer employees
+- Research & Development - Generates Research Points, minor increase
+  quality of output materials and products.
+- Intern: Increased experience gain and improves average morale and
+  energy for the office.
+
+[division]: ./glossary.md#divisions
+[offices]: ./glossary.md#offices
+[warehouses]: ./glossary.md#warehouses
+[employees]: ./glossary.md#employees
+[positions]: ./glossary.md#positions
 
 ---
 
@@ -58,8 +105,8 @@ During the purchase phase all standing purchase orders for
 
 ### Production
 
-During the production phase [input materials] are consumed and [output
-materials] or [products] are produced.
+During the production phase [input materials][inputs] are consumed and
+[output materials][outputs] or [products] are produced.
 
 ### Export
 
@@ -78,5 +125,3 @@ sell all the products you've produced in a single sell cycle.
 [production]: ./glossary.md#production
 [export]: ./glossary.md#export
 [sale]: ./glossary.md#sale
-
-[Unlock]: ./unlocks.md
