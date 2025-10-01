@@ -95,3 +95,32 @@ corporation. Choose Agriculture and a name for your new division.
 
 This will create a new agriculture division with one office in
 Sector-12 and a starting warehouse.
+
+There's a lot of information to take in here but let's start by
+looking at the Division information in the top left corner. In
+particular you can see your total "Corp Funds" (which is a pool shared
+by all your divisions), the Awareness and Popularity which are
+important stats relevant to how much material or product you can sell,
+your production multiplier and your research points.
+
+If we mouse over the Production Multiplier we get a helpful tool-tip
+briefly describing what this important quantity is, and if you click
+on the question mark icon you can get a more in-depth explanation. The
+executive summary is that the Production Multiplier directly affects
+how many materials or products we can produce per cycle.
+
+The most important thing to note is that this Production Multiplier is
+the sum of the Production Multiplier from each office, but it is a
+per-division value and it is applied to _all_ offices in your
+division. The base production multiplier for each office that has a
+warehouse is 1, so when you have 1 office and it's associated
+warehouse, your division Production Multiplier is 1. But since the
+division Production Multiplier is the _sum_ of all office Production
+Multipliers if we expand to a new city and purchase a warehouse there,
+our division multiplier will jump to 2 during the next [Start] phase.
+
+[Start]: ./glossary.md#start
+
+This means the quickest way to increase our division Production
+Multiplier when starting a new division is to expand to all six cities
+and purchase a warehouse. Let' do that now.
