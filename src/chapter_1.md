@@ -62,10 +62,10 @@ mechanic you start by creating an Agriculture division first.
 ```admonish question
 ####  Why Should You Start with Agriculture?
 
-Since our ultimate goal is to create high quality products to sell for
-lots of money, we need to learn a little bit about how product quality
-is determined. We'll get into this in more depth later but for now
-the most important thing to know is that higher quality inputs produce
+Our ultimate goal is to create high quality products to sell for lots
+of money, so we need to learn a little bit about how product quality
+is determined. We'll get into this in more depth later but for now the
+most important thing to know is that higher quality inputs produce
 higher quality outputs. When we buy materials from the market they
 always have the base level quality of 1. In order to get higher
 quality materials we need to produce them ourselves using research
@@ -74,9 +74,19 @@ Development) to raise the quality of our output products.
 
 Eventually, we want to create a circular supply chain where we
 feedback high-quality materials into the beginning of our supply chain
-to create even higher-quality products. Initially though we can only
-create one industry and won't be able to unlock the "Export" mechanic
-which is key to creating complex supply chains.
+to create even higher-quality products. If you spend some time in the
+Industry expand screen you can see what materials each industry
+produces and consumes. To create the optimal circular supply chain we
+need to have an industry producing at least one input material for
+each of our industries. We recommend Agriculture because it is part of
+the smallest self-sufficient supply chain (Agriculture <-> Chemical)
+and Agriculture is cheaper than Chemical to start and has better
+scaling in some mechanics we haven't talked about yet.
+
+Because of our low budget in the first round we can only create one
+industry and we won't be able to unlock the "Export" mechanic which is
+key to creating complex supply chains, but starting with Agriculture
+sets us up to expand into Chemical and complete our supply chain loop.
 ```
 
 To create our Agriculture division click the "Expand" button at the
