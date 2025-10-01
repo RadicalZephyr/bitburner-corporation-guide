@@ -97,6 +97,13 @@ Corporation repeatedly cycles through a sequence of five phases. A
 full cycle takes 10 seconds. If you have bonus time accrued this cycle
 will only take 1 second per cycle.
 
+### Every Phase
+
+A lot of values update at the beginning of each phase:
+
+- Employee experience increases
+- Production Multiplier is recalculated
+
 ### Start
 
 Many corporation actions only happen at the beginning of the START
