@@ -54,3 +54,13 @@ mechanics walkthrough in [Chapter 1](./chapter_1.md). Once you're
 familiar with the basic mechanics you can start thinking about
 automating parts of your corporation which we'll discuss in [Chapter
 2](./chapter_2.md).
+
+## Acknowledgements
+
+This guide wouldn't be possible without the [reference manual] written
+by [CatLover] I learned a ton from reading it. They have also poured a
+ton of time and effort into improving the Corporation mechanic and
+Bitburner as a whole.
+
+[CatLover]: https://github.com/catloversg
+[reference manual]: https://drive.google.com/file/d/1PCKaKgMBXrYsPyZ-vTRR9MBQI-f6ersJ/view
