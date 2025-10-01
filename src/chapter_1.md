@@ -31,7 +31,8 @@ much money as possible in each investment round we want to generate as
 much profit as we possibly can with the funds we get in each
 round.
 
-### How to make Money
+```admonish note
+#### How to make Money
 
 But how do we actually make money with a corporation? The basic answer
 is that you will hire employees, assign them to work in positions. You
@@ -39,6 +40,7 @@ will set up standing orders to buy the input materials your industry
 needs and your employees productivity will turn those input materials
 into output materials. You will then sell those output materials for a
 profit.
+```
 
 In order to maximize our profit we need to produce as many output
 materials as possible and we need to maximize the quality of our
@@ -57,7 +59,8 @@ maximize the quantity and quality of the materials we produce with it.
 It is _highly_ recommended that if you are new to the Corporation
 mechanic you start by creating an Agriculture division first.
 
-### Why Should You Start with Agriculture?
+```admonish question
+####  Why Should You Start with Agriculture?
 
 Since our ultimate goal is to create high quality products to sell for
 lots of money, we need to learn a little bit about how product quality
@@ -74,6 +77,7 @@ feedback high-quality materials into the beginning of our supply chain
 to create even higher-quality products. Initially though we can only
 create one industry and won't be able to unlock the "Export" mechanic
 which is key to creating complex supply chains.
+```
 
 To create our Agriculture division click the "Expand" button at the
 top of the Corporation screen next to the name of your
