@@ -59,6 +59,12 @@ There are six different positions you can assign employees to.
 
 ---
 
+## Corporation Funds
+
+## Investors
+
+---
+
 ## Materials
 
 There are numerous different types of materials.
