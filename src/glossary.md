@@ -38,6 +38,10 @@ Employee stats are tracked as averages. Employees have three stats:
 morale, energy and experience. You can assign employees to different
 [positions].
 
+- Average Employee Morale: Max 100
+- Average Employee Energy: Max 100
+- Average Employee Experience: No Max
+
 ## Positions
 
 There are six different positions you can assign employees to.
