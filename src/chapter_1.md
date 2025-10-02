@@ -274,3 +274,26 @@ and subtraction.
 Now that we're buying inputs, producing outputs and selling them you
 should be making money! Not very much admittedly, but at least we have
 money flowing in now.
+
+## Optimizing Our Sales and Production
+
+We started with conservative values for the amount of input materials
+we're buying so we can be sure we're consuming all of them during the
+PRODUCTION phase. However, even with no production boosting we should
+be able to increase the amount of materials we buy to produce even
+more. Try experimenting with buying different quantities of input
+materials, just remember to keep the water and chemicals in the proper
+proportion.
+
+We can also try to optimize our sales by increasing the price. If you
+have a good amount of Research Points stored up you should be
+producing slightly higher quality outputs than the base quality inputs
+you are buying from the market. With 2k Research Points and one
+Engineer I'm producing quality 6.98 Food and Plants with my
+Agriculture industry. This means we should be able to sell our Plants
+and Food for slightly above market price and increase the profit we're
+trying to make. This is slightly more complicated than just setting a
+very high value though. First, we probably want our sell price to
+still be related to the market price so we should use a formula. Let's
+start by changing our sell price in one office to be `MP+10`. This
+should improve our profit a little bit.
