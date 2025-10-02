@@ -179,3 +179,98 @@ a zero to `0 -> 1`. Once the next `Start` phase comes around in the
 cycle, this changes to a `1` so we can't instantly change employees
 from one job to the other, they only switch at the beginning of a
 cycle.
+
+## The Business Cycle
+
+Before we can start producing materials and selling them for a profit
+we need to talk about the timer bar in the warehouse view. This timer
+cycles through the same five different phases in the same order. One
+cycle of all five phases takes ten seconds, two seconds per phase. For
+the moment we're only concerned with the PURCHASE, PRODUCTION and SELL
+phases. These phase names are fairly self-explanatory. During the
+PURCHASE phase material purchase orders are processed and the new
+materials are stored in our warehouse. During the PRODUCTION phase,
+input materials are processed into output materials. During the SELL
+phase any standing sale orders are processed.
+
+## Producing Some Materials and Money
+
+Now that we have some employees producing research we can start
+thinking about producing some materials to sell.
+
+If we look in the Warehouse section we can see the formula for
+producing materials for the current division. For the agriculture
+division this looks like:
+
+`0.5 * Water + 0.2 * Chemicals = 1 Plants + 1 Food`
+
+For right now, the most important thing about this formula is the
+ratio of the two types of inputs. For agriculture we need 5 water
+inputs for every 2 chemical inputs.
+
+Let's also talk about employee position distribution we need to
+produce materials and sell them for a profit. At a minimum we need at
+least one employee in Operations or Engineering to produce materials
+and one employee in Business to sell the produced
+materials. Employees in Operations contribute more to production
+amount than Engineers do, but Engineers also contribute to the quality
+of the produced materials so we probably want one of each.
+
+In order to produce materials we first have to buy the appropriate
+input materials. We can purchase materials in two ways, per second or
+bulk purchases. Bulk purchases purchase a bunch of materials all at
+once and they happen immediately regardless of which phase we're in.
+
+Since we have three employees in each office right now, let's assign
+one employee each to Operations, Engineering and Business.
+
+Now that we've got employees working at production jobs we can create
+a purchase order to buy the input materials we need. Keep in mind that
+the purchase order is specified in materials per second. Purchases are
+only processed once per cycle during the PURCHASE phase and we buy 10
+seconds worth of materials during that phase, so the number you enter
+in the purchase order field will be 1/10th of the amount you actually
+purchase.
+
+Set up a purchase order for 0.5 water and 0.2 chemicals. To make sure
+we're not taking up space with materials we can't use, try to set up
+both purchase orders during the same cycle so neither material is
+purchased until both material purchase orders set up.
+
+```admonish tips
+#### Setting up Purchases in Multiple Cities
+
+To make it easier to set up all the offices in your division the same
+way the game remembers the last value entered per material-type. This
+means you can set up the purchase, sell and export orders in one city,
+then just open the relevant dialog in other cities and hit enter to
+accept the new values. Notice that even with this shortcut setting up
+all the cities in your division to have the same purchase orders is
+still a little bit tedious... remember this when we get to the next
+chapter and start thinking about what we can automate using scripts.
+```
+
+Now we should be purchasing our input materials of Water and
+Chemicals, and our workers should be turning these into Food and
+Plants. Now we should set up sell orders for these materials so we
+don't build up too large of a stockpile.
+
+For now let's quickly set up sell orders to sell maximum quantity we
+can sell for the market price. This means write the string `MAX` in
+the amount field, and the string `MP` in the price field. Feel free to
+read the info in the sell dialog box to learn more about how this works.
+
+```admonish note
+#### Buy, Sell and Export Fields
+
+The quantity and price fields for buying, selling and exporting (we'll
+cover this soon!) can all specify simple math expressions using
+numbers or some predefined strings that represent values that change
+(like the Market Price). These expressions can contain parentheses for
+grouping and operator precedence, multiplication, division, addition
+and subtraction.
+```
+
+Now that we're buying inputs, producing outputs and selling them you
+should be making money! Not very much admittedly, but at least we have
+money flowing in now.
