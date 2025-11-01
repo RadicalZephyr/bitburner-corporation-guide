@@ -1,6 +1,6 @@
 # Summary
 
 - [Introduction](./introduction.md)
-- [Chapter 1](./chapter_1.md)
-- [Chapter 2](./chapter_2.md)
+- [UI & Manual Interaction Walkthrough](./ch_1-ui-manual-interaction.md)
+- [Getting Started Automating](./ch_2-getting-started-automating.md)
 - [Glossary](./glossary.md)

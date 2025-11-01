@@ -50,10 +50,10 @@ available through a button "Sell CEO position" just above the
 ## How to Read this Guide
 
 If you're completely new to corporations start with the UI and
-mechanics walkthrough in [Chapter 1](./chapter_1.md). Once you're
+mechanics walkthrough in [Chapter 1](./ch_1-ui-manual-interaction.md). Once you're
 familiar with the basic mechanics you can start thinking about
 automating parts of your corporation which we'll discuss in [Chapter
-2](./chapter_2.md).
+2](./ch_2-getting-started-automating.md).
 
 ## Acknowledgements
 
