@@ -24,6 +24,13 @@ jobs:
           curl -sSL $url | tar -xz --directory=./mdbook
           echo `pwd`/mdbook >> $GITHUB_PATH
 
+          latest_tag=$(curl 'https://api.github.com/repos/rust-lang/mdbook/releases/latest' | jq -r '.tag_name')
+          newer_version=""
+          if [ "${tag}" = "${latest_tag}" ] ; then
+            newer_version="\n## A newer version is available: ${latest_tag}"
+          fi
+          echo -e "# Installed mdbook ${tag}${newer_version}" >> $GITHUB_STEP_SUMMARY
+
       - name: Install mdbook-linkcheck
         run: |
           tag="v0.7.7"
@@ -32,11 +39,25 @@ jobs:
           unzip mdbook/mdbook-linkcheck.zip -d mdbook -x README.md LICENSE
           chmod ugo+x mdbook/mdbook-linkcheck
 
+          latest_tag=$(curl 'https://api.github.com/repos/Michael-F-Bryan/mdbook-linkcheck/releases/latest' | jq -r '.tag_name')
+          newer_version=""
+          if [ "${tag}" = "${latest_tag}" ] ; then
+            newer_version="\n## A newer version is available: ${latest_tag}"
+          fi
+          echo -e "# Installed mdbook-linkcheck ${tag}${newer_version}" >> $GITHUB_STEP_SUMMARY
+
       - name: Install mdbook-admonish
         run: |
           tag="v1.20.0"
           url="https://github.com/tommilligan/mdbook-admonish/releases/download/${tag}/mdbook-admonish-${tag}-x86_64-unknown-linux-gnu.tar.gz"
           curl -sSL $url | tar -xz --directory=./mdbook
+
+          latest_tag=$(curl 'https://api.github.com/repos/tommilligan/mdbook-admonish/releases/latest' | jq -r '.tag_name')
+          newer_version=""
+          if [ "${tag}" = "${latest_tag}" ] ; then
+            newer_version="\n## A newer version is available: ${latest_tag}"
+          fi
+          echo -e "# Installed mdbook-admonish ${tag}${newer_version}" >> $GITHUB_STEP_SUMMARY
 
       - name: Build Book
         run: mdbook build
