@@ -7,6 +7,7 @@ src = "src"
 
 [output.html]
 additional-css = ["./assets/css/mdbook-admonish.css"]
+git-repository-url = "https://github.com/RadicalZephyr/bitburner-corporation-guide"
 
 [output.linkcheck]
 
