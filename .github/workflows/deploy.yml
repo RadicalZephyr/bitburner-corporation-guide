@@ -17,6 +17,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Summary Header
+        run: echo -e '# Build Result\n## Tool Versions' >> $GITHUB_STEP_SUMMARY
+
       - name: Install mdbook
         run: |
           tag="v0.4.52"
