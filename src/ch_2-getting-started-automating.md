@@ -1,4 +1,4 @@
-# Chapter 2 - Getting Started Automating
+# Getting Started Automating
 
 Now that you've gotten some familiarity with the basic structure and
 mechanics of your corporation you may have noticed that parts of it

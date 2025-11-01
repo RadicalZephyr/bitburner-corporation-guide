@@ -1,4 +1,4 @@
-# Manual Corporation Walkthrough
+# UI & Manual Interaction Walkthrough
 
 To get a feel for how your Corporation works it can be helpful to
 interact with it through the game's user interface first. There are
